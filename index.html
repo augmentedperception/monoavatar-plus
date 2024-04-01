@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="MonoAvatar learns a high-quality implicit 3D head avatar from a monocular RGB video captured in the wild.">
-  <meta name="keywords" content="MonoAvatar">
+        content="MonoAvatar++ learns a real-time high-quality implicit 3D head avatar from a monocular RGB video captured in the wild.">
+  <meta name="keywords" content="MonoAvatar++">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="MonoAvatar: Learning Personalized High Quality Volumetric Head Avatars from Monocular RGB Videos" />
-  <meta property="og:description" content="MonoAvatar learns a high-quality implicit 3D head avatar from a monocular RGB video captured in the wild." />
+  <meta property="og:title" content="MonoAvatar++: Efficient 3D Implicit Head Avatar with Mesh-anchored Hash Table Blendshapes" />
+  <meta property="og:description" content="MonoAvatar++ learns a real-time high-quality implicit 3D head avatar from a monocular RGB video captured in the wild." />
   <meta property="og:image" content="./static/images/teaser.png" />
-  <title>MonoAvatar: Learning Personalized High Quality Volumetric Head Avatars from Monocular RGB Videos</title>
+  <title>MonoAvatar++: Efficient 3D Implicit Head Avatar with Mesh-anchored Hash Table Blendshapes</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-T834G2HR2M"></script>
@@ -47,49 +47,28 @@
     <div class="container">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">MonoAvatar: Learning Personalized High Quality Volumetric Head Avatars from Monocular RGB Videos</h1>
-          <h1 class="title is-size-3" style="color:#5a6268;">CVPR 2023</h1>
+          <h1 class="title is-1 publication-title">MonoAvatar++: Efficient 3D Implicit Head Avatar with Mesh-anchored Hash Table Blendshapes</h1>
+          <h1 class="title is-size-3" style="color:#5a6268;">CVPR 2024</h1>
           <div class="is-size-5 publication-authors" style="text-align: center; font-size: 25px; padding-top: 10px;">
             <span class="author-block">
               <a href="https://zqbai-jeremy.github.io">Ziqian Bai</a><sup>1,2</sup>,</span>
             <span class="author-block">
               <a href="https://scholar.google.com/citations?hl=en&user=qsrpuKIAAAAJ">Feitong Tan</a><sup>1</sup>,</span>
             <span class="author-block">
-              <a href="https://zeng.science/">Zeng Huang</a><sup>1</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://krips89.github.io/profile_page/">Kripasindhu Sarkar</a><sup>1</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://scholar.google.com/citations?user=9uxs6G4AAAAJ&hl=en">Danhang Tang</a><sup>1</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://sylqiu.github.io/">Di Qiu</a><sup>1</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://www.meka.page/">Abhimitra Meka</a><sup>1</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://duruofei.com/">Ruofei Du</a><sup>1</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://scholar.google.com/citations?user=DB8aKRgAAAAJ&hl=en">Mingsong Dou</a><sup>1</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://scholar.google.es/citations?user=dznX1DMAAAAJ&hl=es">Sergio Orts-Escolano</a><sup>1</sup>,
+              <a href="https://www.seanfanello.it/">Sean Fanello</a><sup>1</sup>,
             </span>
             <span class="author-block">
               <a href="https://scholar.google.com/citations?user=lJ3VfV8AAAAJ&hl=en">Rohit Pandey</a><sup>1</sup>,
             </span>
             <span class="author-block">
-              <a href="https://scholar.google.ca/citations?user=XhyKVFMAAAAJ&hl=en">Ping Tan</a><sup>2</sup>,
+              <a href="https://scholar.google.com/citations?user=DB8aKRgAAAAJ&hl=en">Mingsong Dou</a><sup>1</sup>,
             </span>
             <span class="author-block">
-              <a href="https://thabobeeler.com/">Thabo Beeler</a><sup>1</sup>,
+              <a href="https://shichenliu.github.io/">Shichen Liu</a><sup>1</sup>,
             </span>
             <span class="author-block">
-              <a href="https://www.seanfanello.it/">Sean Fanello</a><sup>1</sup>,
-            </span>
+              <a href="https://scholar.google.ca/citations?user=XhyKVFMAAAAJ&hl=en">Ping Tan</a><sup>3</sup>,
+            </span>            
             <span class="author-block">
               <a href="https://www.zhangyinda.com/">Yinda Zhang</a><sup>1</sup>,
             </span>
@@ -97,14 +76,15 @@
 
           <div class="is-size-5 publication-authors" style="text-align: center;">
             <span class="author-block"><sup>1</sup> Google,</span>
-            <span class="author-block"><sup>2</sup> Simon Fraser University</span>
+            <span class="author-block"><sup>2</sup> Simon Fraser University,</span>
+            <span class="author-block"><sup>3</sup> The Hong Kong University of Science and Technology</span>
           </div>
 
           <div class="column has-text-centered">
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="./5636.pdf"
+                <a href="./9485.pdf"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -113,7 +93,7 @@
                 </a>
               </span>
               <span class="link-block">
-                <a href="./5636_supp.pdf"
+                <a href="./9485_supp.pdf"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -171,13 +151,15 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <img id="teaser" class="img-responsive img-rounded" src="./static/images/teaser.png" style="width:100%" alt="">
-      <h2 class="subtitle has-text-justified">
-        <b>MonoAvatar</b> builds a 3D avatar representation of a person using just a single short monocular RGB video (e.g., 1-2 minutes).
-        We leverage a 3DMM to track the user's expressions, and generate a volumetric photorealistic 3D avatar that can be rendered with
-        user-defined expression and viewpoint.
-        <!-- Note that our method works well on challenging materials, e.g., hair, and dramatic expressions. -->
-      </h2>
+      <div class="container" style="margin-left: -170px; margin-right: -170px;">
+        <img id="teaser" class="img-responsive img-rounded" src="./static/images/teaser.png" style="width:200%" alt="">
+        <h2 class="subtitle has-text-justified">
+          <b>MonoAvatar++</b> builds a 3D avatar representation of a person that can be rendered in real-time, from just a single short monocular RGB video (e.g., 1-2 minutes).
+          We leverage a 3DMM to track the user's expressions, and construct an efficient volumetric 3D avatar that can be rendered in >= 30 FPS with 512 x 512 
+          resolutions, given user-defined expression and viewpoint.
+          <!-- Note that our method works well on challenging materials, e.g., hair, and dramatic expressions. -->
+        </h2>
+      </div>
     </div>
   </div>
 
@@ -191,10 +173,10 @@
                 autoplay
                 muted
                 loop>
-            <source src="videos/subject4.mp4"
+            <source src="videos/subject15.mp4"
                     type="video/mp4">
           </video>
-          <div class="container" style="margin-top: -150px; font-size: 20px;">
+          <div class="container" style="margin-top: -90px; font-size: 20px;">
             Input Driving Video &emsp;&emsp;&emsp;Rendered Avatar &emsp;&emsp;&emsp;Rendered Depth
           </div>
         </div>
@@ -208,10 +190,10 @@
                 autoplay
                 muted
                 loop>
-            <source src="videos/subject1.mp4"
+            <source src="videos/subject18.mp4"
                     type="video/mp4">
           </video>
-          <div class="container" style="margin-top: -90px; font-size: 20px;">
+          <div class="container" style="margin-top: -168px; font-size: 20px;">
             Input Driving Video &emsp;&emsp;&emsp;Rendered Avatar &emsp;&emsp;&emsp;Rendered Depth
           </div>
         </div>
@@ -228,15 +210,17 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We propose a method to learn a high-quality implicit 3D head avatar from a monocular RGB video captured in the wild. The
-            learnt avatar is driven by a parametric face model to achieve user-controlled facial expressions and head poses. Our hybrid
-            pipeline combines the geometry prior and dynamic tracking of a 3DMM with a neural radiance field to achieve fine-grained
-            control and photorealism. To reduce over-smoothing and improve out-of-model expressions synthesis, we propose to predict
-            local features anchored on the 3DMM geometry. These learnt features are driven by 3DMM deformation and interpolated in 3D
-            space to yield the volumetric radiance at a designated query point. We further show that using a Convolutional Neural Network
-            in the UV space is critical in incorporating spatial context and producing representative local features. Extensive experiments
-            show that we are able to reconstruct high-quality avatars, with more accurate expression-dependent details, good generalization
-            to out-of-training expressions, and quantitatively superior renderings compared to other state-of-the-art approaches.
+            3D head avatars built with neural implicit volumetric representations have achieved unprecedented levels of photorealism. 
+            However, the computational cost of these methods remains a significant barrier to their widespread adoption, particularly 
+            in real-time applications such as virtual reality and teleconferencing. While attempts have been made to develop fast neural 
+            rendering approaches for static scenes, these methods cannot be simply employed to support realistic facial expressions, 
+            such as in the case of a dynamic facial performance. To address these challenges, we propose a novel fast 3D neural implicit 
+            head avatar model that achieves real-time rendering while maintaining fine-grained controllability and high rendering quality. 
+            Our key idea lies in the introduction of local hash table blendshapes, which are learned and attached to the vertices of an 
+            underlying face parametric model. These per-vertex hash-tables are linearly merged with weights predicted via a CNN, resulting 
+            in expression dependent embeddings. Our novel representation enables efficient density and color predictions using a lightweight 
+            MLP, which is further accelerated by a hierarchical nearest neighbor search method. Extensive experiments show that our approach 
+            runs in real-time while achieving comparable rendering quality to state-of-the-arts and decent results on challenging expressions.
           </p>
         </div>
       </div>
@@ -249,14 +233,17 @@
   <div class="container is-max-desktop">
     <div id="overview" class="hero-body">
       <div class="columns is-centered has-text-centered"><h2 class="title is-3">Overview</h2></div>
-      <img class="img-responsive img-rounded" src="./static/images/overview.png" style="width:100%" alt="">
-      <h2 class="content has-text-justified">
-        Overview of our pipeline. The core of our method is the Avatar Representation (Sec.3.1. Shown as the yellow area) based on a
-        3DMM-anchored neural radiance field (NeRF), which are decoded from local features attached on the 3DMM vertices. Then, we use
-        volumetric rendering to compute the output image. To predict the vertex-attached features (Sec.3.2. Shown as the green area),
-        we first compute the vertex displacements from the 3DMM expression and pose, then process the displacements in UV space with
-        Convolutional Neural Networks (CNNs), and sample the obtained features back to mesh vertices.
-      </h2>
+      <div class="container" style="margin-left: -170px; margin-right: -170px;">
+        <img class="img-responsive img-rounded" src="./static/images/overview.png" style="width:100%" alt="">
+        <h2 class="content has-text-justified">
+          Overview of our pipeline. Our core avatar representation is Mesh-anchored Hash Table Blendshapes (Sec.3.1), where multiple 
+          small hash tables are attached to each 3DMM vertex. During inference, our method starts from a displacement map encoding 
+          the facial expression, which is then fed into a U-Net to predict hash table weights and per-vertex features. The predicted 
+          weights are used to linearly combine the multiple hash tables attached on each 3DMM vertex (Sec.3.2). During volumetric 
+          rendering (Sec.3.3), for each query point, we search its k-nearest-neighbor vertices, then pull embeddings from the merged 
+          hash tables and concatenate with the per-vertex feature to decode local density and color via a tiny MLP with two hidden layers.
+        </h2>
+      </div>
     </div>
   </div>
 </section>
@@ -270,94 +257,161 @@
       <div class="container" style="text-align: center;">
         <hr>
         <br>
-        <h3 class="title is-3 has-text-centered">Results of driving the avatars by an unseen test video sequence of the subject</h3>
-        <p style="font-size: 20px; text-align:center">Labels &emsp;- &emsp;Left: Input Driving Video,  &emsp;Center: Rendered Avatar,  &emsp;Right: Rendered Depth</p>
+        <h3 class="title is-3 has-text-centered">Results of comparing with the state-of-the-art approaches.</h3>
+        <p style="font-size: 20px; text-align:center">Compare with PointAvatar[<a href='#ref1'>1</a>], INSTA[<a href='#ref2'>2</a>], 
+          NeRFBlendshape[<a href='#ref3'>3</a>], MonoAvatar[<a href='#ref4'>4</a>].</p>
         <br>
 
-        Our learned avatar produces high-quality renderings and geometries, and captures personalized
-        characteristics such as <b>winkles</b>:
+        Our method is able to achieve one of the best rendering quality while maintaining real-time rendering speed.
+
         <div class="opacity-off">
-          <video width="640"
-                height="410"
+          <video width="1500"
+                height="310"
                 controls
                 autoplay
                 muted
                 loop>
-            <source src="videos/subject0.mp4"
+            <source src="videos/subject15_vs_sota.mp4"
                     type="video/mp4">
           </video>
         </div>
 
-        Our method can also handle <b>fluffy</b> hairs and accessories like <b>glasses</b>:
         <div class="opacity-off">
-          <video width="640"
-                height="410"
+          <video width="1500"
+                height="310"
                 controls
                 autoplay
                 muted
                 loop>
-            <source src="videos/subject2.mp4"
+            <source src="videos/subject18_vs_sota.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+
+        <div class="opacity-off">
+          <video width="1500"
+                height="310"
+                controls
+                autoplay
+                muted
+                loop>
+            <source src="videos/subject2_vs_sota.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+
+        <div class="opacity-off">
+          <video width="1500"
+                height="310"
+                controls
+                autoplay
+                muted
+                loop>
+            <source src="videos/subject14_vs_sota.mp4"
+                    type="video/mp4">
+          </video>
+
+          <br>
+          <video width="1500"
+                height="310"
+                controls
+                autoplay
+                muted
+                loop>
+            <source src="videos/subject19_vs_sota.mp4"
+                    type="video/mp4">
+          </video>
+
+          <br>
+          <video width="1500"
+                height="310"
+                controls
+                autoplay
+                muted
+                loop>
+            <source src="videos/subject8_vs_sota.mp4"
+                    type="video/mp4">
+          </video>
+
+          <br>
+          <video width="1500"
+                height="310"
+                controls
+                autoplay
+                muted
+                loop>
+            <source src="videos/subject0_vs_sota.mp4"
+                    type="video/mp4">
+          </video>
+
+          <br>
+          <video width="1500"
+                height="310"
+                controls
+                autoplay
+                muted
+                loop>
+            <source src="videos/subject16_vs_sota.mp4"
+                    type="video/mp4">
+          </video>
+
+          <br>
+          <video width="1500"
+                height="310"
+                controls
+                autoplay
+                muted
+                loop>
+            <source src="videos/subject4_vs_sota.mp4"
+                    type="video/mp4">
+          </video>
+
+          <br>
+          <video width="1500"
+                height="310"
+                controls
+                autoplay
+                muted
+                loop>
+            <source src="videos/subject11_vs_sota.mp4"
                     type="video/mp4">
           </video>
 
         </div>
+        <br>
 
-        Our method generates reasonable results for <b>challenging long hairs</b>. For more discussions,
-        please refer to the <a href="#limitations" style="color:rgb(4, 0, 255)">limitation</a> section at the end of the page.
-
-        <div class="opacity-off">
-
-          <video width="640"
-                height="410"
-                controls
-                autoplay
-                muted
-                loop>
-            <source src="videos/subject7.mp4"
-                    type="video/mp4">
-          </video>
-
-        </div>
-
-        Furthermore, our method can also reproduce <b>personalized complex expressions</b>.
+        <hr>
+        <br>
+        <h3 class="title is-3 has-text-centered">More Results of Our Approach.</h3>
+        <p style="font-size: 20px; text-align:center">
+          Labels - <b>Left:</b> Input Driving Video,  <b>Center:</b> Rendered Avatar,  <b>Right:</b> Rendered Depth
+        </p>
+        <br>
 
         <div class="opacity-off">
 
-          <video width="640"
-                height="410"
+          <video width="740"
+                height="310"
                 controls
                 autoplay
                 muted
                 loop>
-            <source src="videos/subject4.mp4"
+            <source src="videos/subject15.mp4"
                     type="video/mp4">
           </video>
-
           <br>
-          <video width="640"
-                height="410"
+          <video width="740"
+                height="310"
                 controls
                 autoplay
                 muted
                 loop>
-            <source src="videos/subject11.mp4"
+            <source src="videos/subject18.mp4"
                     type="video/mp4">
           </video>
-
           <br>
-          <video width="640"
-                height="410"
-                controls
-                autoplay
-                muted
-                loop>
-            <source src="videos/subject1.mp4"
-                    type="video/mp4">
-          </video>
-
-          <br>
-          <video width="640"
-                height="410"
+          <video width="740"
+                height="310"
                 controls
                 autoplay
                 muted
@@ -365,97 +419,55 @@
             <source src="videos/subject8.mp4"
                     type="video/mp4">
           </video>
-
           <br>
-          <video width="640"
-                height="410"
+          <video width="740"
+                height="310"
                 controls
                 autoplay
                 muted
                 loop>
-            <source src="videos/subject3.mp4"
+            <source src="videos/subject4.mp4"
                     type="video/mp4">
           </video>
-
+          <br>
+          <video width="740"
+                height="310"
+                controls
+                autoplay
+                muted
+                loop>
+            <source src="videos/subject11.mp4"
+                    type="video/mp4">
+          </video>
+          <br>
         </div>
+
         <br>
+
 
         <hr>
         <br>
-        <h3 class="title is-3 has-text-centered">Results of comparing to state-of-the-art 3D avatars</h3>
+
+        <h3 class="title is-3 has-text-centered">Real-time Live Demo of Avatar Driving (Stereo Rendering).</h3>
         <p style="font-size: 20px; text-align:center">
-          Labels &emsp;- &emsp;From left to right: &emsp;(1) Input Driving Video, &emsp;(2) Ours,
-          &emsp;(3) NerFACE [1], &emsp;(4) NHA [2], &emsp;(5) IMAvatar [3]
+          Labels - <b>Left:</b> Driving Video,  <b>Center:</b> Rendered Avatar,  <b>Right:</b> Viewing in Headset
         </p>
         <br>
 
-        <div class="opacity-off">
-
-          <video width="1020"
-                height="410"
-                controls
-                autoplay
-                muted
-                loop>
-            <source src="videos/subject2_vssota.mp4"
-                    type="video/mp4">
-          </video>
-          <br>
-          <video width="1020"
-                height="410"
-                controls
-                autoplay
-                muted
-                loop>
-            <source src="videos/subject3_vssota.mp4"
-                    type="video/mp4">
-          </video>
-          <br>
-        </div>
-
-        <br>
-
-
-        <hr>
-        <br>
-
-        <h3 class="title is-3 has-text-centered">More Results of Multi-view Rendering</h3>
-        <p style="font-size: 20px; text-align:center">
-          Labels &emsp;- &emsp;From left to right: &emsp;(1) Input Driving Video, &emsp;(2) -15 degrees,
-          &emsp;(3) 0 degree, &emsp;(4) +15 degrees
-        </p>
-        <br>
+        We build a real-time demo based on our method, where we track the facial performance of the actor with a webcam, and 
+        render our avatar on a workstation with a RTX3080Ti. Finally, we display the rendered stereo pair on a headset and a 
+        webpage. The tracking results and rendered videos are streaming through the internet, which may cause latency between 
+        the driving and the rendering, and slightly unsmoothed videos.
 
         <div class="opacity-off">
 
-          <video width="820"
-                height="410"
+          <video width="1500"
+                height="319"
                 controls
                 autoplay
                 muted
                 loop>
-            <source src="videos/subject0_multiviews.mp4"
-                    type="video/mp4">
-          </video>
-          <br>
-          <video width="820"
-                height="410"
-                controls
-                autoplay
-                muted
-                loop>
-            <source src="videos/subject2_multiviews.mp4"
-                    type="video/mp4">
-          </video>
-          <br>
-
-          <video width="820"
-                height="410"
-                controls
-                autoplay
-                muted
-                loop>
-            <source src="videos/subject4_multiviews.mp4"
+            <source src="videos/demo.mp4"
                     type="video/mp4">
           </video>
         </div>
@@ -464,129 +476,27 @@
         <hr>
         <br>
 
-        <h3 class="title is-3 has-text-centered">Results driven under different capturing conditions</h3>
-        <p style="font-size: 20px; text-align:center">Labels &emsp;- &emsp;Left: Input Driving Video,  &emsp;Center: Rendered Avatar,  &emsp;Right: Rendered Depth</p>
-        <br>
-
-        After training, the learned avatar model can be driven by the same subject under <b>different
-          capturing conditions</b>, such as differences in hair styles, illumination, and glasses.
-
-
-        <div class="opacity-off">
-
-          <video width="640"
-                height="410"
-                controls
-                autoplay
-                muted
-                loop>
-            <source src="videos/subject2_drive_rgbdepth.mp4"
-                    type="video/mp4">
-          </video>
-          <br>
-          <video width="640"
-                height="410"
-                controls
-                autoplay
-                muted
-                loop>
-            <source src="videos/subject1_drive_rgbdepth.mp4"
-                    type="video/mp4">
-          </video>
-          <br>
-
-          <video width="640"
-                height="410"
-                controls
-                autoplay
-                muted
-                loop>
-            <source src="videos/subject0_drive_rgbdepth.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-
-        <br>
-        <hr>
-        <br>
-
-        <h3 id="limitations" class="title is-3 has-text-centered">Limitations when rendering from extreme views</h3>
-        <p style="font-size: 20px; text-align:center">Labels &emsp;- &emsp;Left: Input Driving Video,  &emsp;Center: Rendered Avatar,  &emsp;Right: Rendered Depth</p>
-        <br>
-
-        Nevertheless, our method still has limitations. Our results degrade when rendering from side
-        views with large angles, which is partially due to <i>missing data</i> for the back of the head.
-
-        <div class="opacity-off">
-          <video width="640"
-                height="410"
-                controls
-                autoplay
-                muted
-                loop>
-            <source src="videos/subject4_lim.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <br>
-
-        <h3 class="title is-3 has-text-centered">Limitations when rendering long hairs</h3>
-        Also, our method has difficulties on handling <i>long hairs with complex deformations</i>, which
-        cannot be captured by the 3DMM.
-
-        <div class="opacity-off">
-          <video width="640"
-                height="410"
-                controls
-                autoplay
-                muted
-                loop>
-            <source src="videos/subject7.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <br>
-
-        <h3 class="title is-3 has-text-centered">Limitations when rendering glasses deformed by 3DMM with refraction</h3>
-        Finally, the deformation on 3DMM surface may <i>incorrectly warp rigid accessories like
-        glasses</i>. Also, current method does not model refraction effects, which are overfitted by
-        incorrect appearances.
-
-        <div class="opacity-off">
-          <video width="640"
-                height="410"
-                controls
-                autoplay
-                muted
-                loop>
-            <source src="videos/subject2_lim.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-
-        <br>
-        <hr>
-        <br>
-
-        <h3 id="limitations" class="title is-3 has-text-centered">References</h3>
+        <h3 id="references" class="title is-3 has-text-centered">References</h3>
 
         <div style="text-align:left">
-          [1] Guy Gafni, Justus Thies, Michael Zollhofer, and Matthias Nießner.
-          Dynamic Neural Radiance Fields for Monocular 4D Facial Avatar Reconstruction.
-          In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021.
-
+          <span id="ref1">[1] Yufeng Zheng, Wang Yifan, Gordon Wetzstein, Michael J Black, and Otmar Hilliges.
+          Pointavatar: Deformable point based head avatars from videos. In CVPR, 2023. <a href="https://zhengyuf.github.io/PointAvatar/" target="_blank">[link]</a></span>
+    
           <br>
-
-          [2] Philip-William Grassal, Malte Prinzler, Titus Leistner, Carsten Rother,
-          Matthias Nießner, and Justus Thies. Neural Head Avatars From Monocular RGB Videos.
-          In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022.
+    
+          <span id="ref2">[2] Wojciech Zielonka, Timo Bolkart, and Justus Thies.
+          Instant volumetric head avatars. In CVPR, 2023. <a href="https://zielon.github.io/insta/" target="_blank">[link]</a></span>
           
           <br>
-
-          [3] Yufeng Zheng, Victoria Fernandez Abrevaya, Marcel C. Buhler, Xu Chen,
-          Michael J. Black, and Otmar Hilliges. Imavatar: Implicit morphable head avatars from
-          videos. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern
-          Recognition (CVPR), 2022.
+    
+          <span id="ref3">[3] Xuan Gao, Chenglai Zhong, Jun Xiang, Yang Hong, Yudong Guo, and Juyong Zhang.
+          Reconstructing personalized semantic facial nerf models from monocular video. In SIGGRAPH Asia, 2022. <a href="https://ustc3dv.github.io/NeRFBlendShape/" target="_blank">[link]</a></span>
+    
+          <br>
+    
+          <span id="ref4">[4] Ziqian Bai, Feitong Tan, Zeng Huang, Kripasindhu Sarkar, Danhang Tang, Di Qiu, Abhimitra Meka,
+          Ruofei Du, Ming song Dou, Sergio Orts-Escolano, et al.
+          Learning personalized high quality volumetric head avatars from monocular rgb videos. In CVPR, 2023. <a href="https://augmentedperception.github.io/monoavatar/" target="_blank">[link]</a></span>
 
         </div>
 
